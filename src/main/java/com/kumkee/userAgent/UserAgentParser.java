@@ -137,6 +137,10 @@ public class UserAgentParser
 			return Browser.YammerMobile;
 		else if(matches(Browser.ApacheHTTPClientPattern, userAgentString))
 			return Browser.ApacheHTTPClient;
+		else if(matches(Browser.ApacheBenchPattern, userAgentString))
+			return Browser.ApacheBench;
+		else if(matches(Browser.WGETPattern, userAgentString))
+			return Browser.WGET;
 		else
 			return Browser.Unknown;
 	}

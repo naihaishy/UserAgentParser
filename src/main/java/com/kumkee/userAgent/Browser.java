@@ -23,6 +23,8 @@ public class Browser {
 	public static final Pattern YammerMobilePattern = Pattern.compile("Yammer[\\s]+([\\d\\w\\.\\-]+)", Pattern.CASE_INSENSITIVE);
 	public static final Pattern BlackberryPattern = Pattern.compile("BlackBerry", Pattern.CASE_INSENSITIVE);
 	public static final Pattern MSIEPattern = Pattern.compile("msie", Pattern.CASE_INSENSITIVE);
+	public static final Pattern ApacheBenchPattern = Pattern.compile("ApacheBench", Pattern.CASE_INSENSITIVE);
+    public static final Pattern WGETPattern = Pattern.compile("Wget", Pattern.CASE_INSENSITIVE);
 	
 	public static final String Konqueror = "Konqueror";
 	public static final String Chrome = "Chrome";
@@ -44,6 +46,8 @@ public class Browser {
 	public static final String YammerDesktop = "Yammer Desktop";
 	public static final String YammerMobile = "Yammer Mobile";
 	public static final String ApacheHTTPClient = "Apache HTTP Client";
+	public static final String ApacheBench = "ApacheBench";
+    public static final String WGET = "Wget";
 	public static final String Unknown = "Unknown";
 }
 
